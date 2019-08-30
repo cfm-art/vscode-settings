@@ -1,0 +1,48 @@
+// 既定の設定を上書きするには、このファイル内に設定を挿入します
+{
+    // ターミナルをgitbashへ変更する
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "workbench.iconTheme": "vs-seti",
+    "window.zoomLevel": 0,
+    "workbench.sideBar.location": "left",
+    "workbench.activityBar.visible": true,
+    "window.menuBarVisibility": "default",
+    "editor.fontFamily": "'MS Gothic', Meiryo, monospace",
+    "editor.minimap.enabled": false,
+    "explorer.autoReveal": false,
+    "[markdown]": {
+        "editor.wordWrap": "off"
+    },
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": true,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": true,
+        "suppressShowKeyBindingsNotice": true,
+        "suppressUpdateNotice": false,
+        "suppressWelcomeNotice": true
+    },
+    "files.autoSave": "off",
+    "gitlens.keymap": "chorded",
+    "window.closeWhenEmpty": false,
+    "workbench.editor.closeEmptyGroups": false,
+    "gitlens.views.repositories.files.layout": "tree",
+    "gitlens.views.fileHistory.enabled": true,
+    "gitlens.views.lineHistory.enabled": true,
+    "breadcrumbs.enabled": true,
+    "[restructuredtext]": {},
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "git.enableSmartCommit": true,
+    "css.lint.float": "warning",
+    "css.lint.ieHack": "warning",
+    "scss.lint.float": "warning",
+    "scss.lint.ieHack": "warning",
+    "omnisharp.monoPath": "C:\\Program Files\\Mono",
+    // "omnisharp.path": "latest",
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "omnisharp.enableEditorConfigSupport": true
+}

@@ -1,0 +1,31 @@
+// 既定値を上書きするには、このファイル内にキー バインドを挿入します
+[
+    {
+        "key": "shift+alt+left",
+        "command": "workbench.files.action.showActiveFileInExplorer"
+    },
+    {
+        "key": "ctrl+alt+left",
+        "command": "-workbench.action.moveEditorToPreviousGroup"
+    },
+    {
+        "key": "ctrl+oem_6",
+        "command": "-editor.action.indentLines",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+oem_6",
+        "command": "editor.action.jumpToBracket",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+oem_5",
+        "command": "-editor.action.jumpToBracket",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+oem_4",
+        "command": "editor.action.jumpToBracket",
+        "when": "editorTextFocus"
+    }
+]
