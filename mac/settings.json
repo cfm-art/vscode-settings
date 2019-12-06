@@ -1,0 +1,10 @@
+{
+    "editor.minimap.enabled": false,
+    "explorer.autoReveal": false,
+    "[markdown]": {
+        "editor.wordWrap": "off"
+    },
+
+    "window.closeWhenEmpty": false,
+    "workbench.editor.closeEmptyGroups": false
+}
