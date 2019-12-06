@@ -1,0 +1,21 @@
+// 既定の設定を上書きするには、このファイル内に設定を挿入します
+{
+    // ターミナルをgitbashへ変更する
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "workbench.iconTheme": "vs-seti",
+    "window.zoomLevel": 0,
+    "workbench.sideBar.location": "left",
+    "workbench.activityBar.visible": true,
+    "window.menuBarVisibility": "default",
+    "editor.fontFamily": "'MS Gothic', Meiryo, monospace",
+    "editor.minimap.enabled": false,
+    "explorer.autoReveal": false,
+    "[markdown]": {
+        "editor.wordWrap": "off"
+    },
+    "files.autoSave": "off",
+    "window.closeWhenEmpty": false,
+    "workbench.editor.closeEmptyGroups": false,
+    "breadcrumbs.enabled": true,
+    "editor.suggestSelection": "first",
+}
